@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 
 class Search extends Component{
-    render(){
+    render(props){
         return(
-            <form>
-                <input type='text' name='City' placeholder='Enter a City...' />
-                <input type='text' name='Country' placeholder='Enter a Country...' />
+            <form onSubmit={this.props.getWeather}>
+                <input type='text' name='city' placeholder='Enter a City...' />
+                <input type='text' name='country' placeholder='Enter a Country...' />
                 <button>Get Weather</button>
             </form>
         )
