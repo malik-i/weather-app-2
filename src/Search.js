@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 class Search extends Component{
-    render(props){
+    render(){
         return(
             <form onSubmit={this.props.getWeather}>
                 <input type='text' name='city' placeholder='Enter a City...' />
