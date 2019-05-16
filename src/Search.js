@@ -6,7 +6,7 @@ class Search extends Component{
             <form>
                 <input type='text' name='City' placeholder='Enter a City...' />
                 <input type='text' name='Country' placeholder='Enter a Country...' />
-                <input type='submit' name='submit' value="Search" />
+                <button>Get Weather</button>
             </form>
         )
     }
