@@ -20,3 +20,7 @@ body {
   width: 400px;
   float: left;
 }
+
+.weather-data {
+  margin-left: 450px;
+}
